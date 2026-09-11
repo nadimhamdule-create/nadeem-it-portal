@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "username": "Nadeemh",
+      "role": "admin",
+      "enabled": true,
+      "password": {
+        "salt": "c075a34579fb7c9876feeb76e1f48b9f",
+        "hash": "6cb605fb776707796995596a23def05efc804eb04ef2f2bedf8d58066ce84d81cbb0d3a571df39ae56a0f7791535d8861b5d05ece8b5bfc2c8c5c2a8a5d74fdb"
+      },
+      "createdAt": "2026-09-11T20:12:12.777Z",
+      "lastLogin": "2026-09-11T20:20:50.208Z"
+    },
+    {
+      "username": "Naveedh",
+      "role": "user",
+      "enabled": true,
+      "password": {
+        "salt": "cbe4c25136fcce7442c670e07e183819",
+        "hash": "a6d80e698595c4027ad2a88693dfe1d6555ac93ca658eb48d5b8c0e6ebf6c2cd331348779be81ce0dadeef66ccadf8b10586a1d23ea16f7f788f2585e0c975ff"
+      },
+      "createdAt": "2026-09-11T20:12:33.383Z",
+      "lastLogin": "2026-09-11T20:12:46.495Z"
+    },
+    {
+      "username": "Ahsana",
+      "role": "user",
+      "enabled": true,
+      "password": {
+        "salt": "0dd21d212dc1e2b884d78a76d15c0272",
+        "hash": "5f7202dacf2ad9d229be67edd9de3ca7bad07c8bd0f41f68454789158b9c5373bcd67af34bb56341d789ec848aa4de9619bdbcc4e85e4f087616e8668da2c044"
+      },
+      "createdAt": "2026-09-11T20:14:01.486Z",
+      "lastLogin": "2026-09-11T20:14:18.061Z"
+    }
+  ]
+}
