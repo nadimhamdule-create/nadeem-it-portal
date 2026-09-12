@@ -3,8 +3,11 @@
 <span>🔐 <b id="authName">User</b>
 </span>
 <a href="/workspace.html">🧰 Workspace</a>
+<a href="/troubleshooting-wizard.html">🧭 Wizard</a>
+<a href="/interview-practice.html">🎯 Practice</a>
 <a href="/team-chat.html">💬 Team Chat</a>
 <a id="adminLink" class="adminOnly" href="/admin.html">Admin</a>
 <button id="logoutBtn">Sign out</button>
 </div>
+<script src="/portal-tools.js"></script>
 <script>(async()=>{try{let r=await fetch('/api/me',{cache:'no-store'});if(r.status===401){location.href='/login.html';return}let j=await r.json();document.getElementById('authName').textContent=j.username||'User';if(j.role==='admin')document.getElementById('adminLink').style.display='inline';document.getElementById('logoutBtn').onclick=async()=>{await fetch('/api/logout',{method:'POST'});location.href='/login.html'}}catch(e){}})();</script>
